@@ -11,7 +11,6 @@ const RightContent:React.FC = () => {
     return (
         <Box 
             w={'350px'} 
-            display={{ base: 'none', lg: 'block'}}
             maxW={"400px"}
             position={scrollY >= 40 ? "sticky" : "static"}
             left={"6%"} 
