@@ -1,5 +1,5 @@
 import { Box, Text, Flex, Image, Button,  } from '@chakra-ui/react';
-import { React, useState } from 'react';
+import React, { useState } from 'react';
 import PopularUser from './PopularUsers';
 const RightContent:React.FC = () => {    
     const [scrollY, setScrollY] = useState(0)
