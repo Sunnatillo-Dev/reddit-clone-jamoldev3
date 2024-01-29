@@ -83,7 +83,7 @@ const CreateCommunityModal = ({ open, handleClose }) => {
                        setImage(null)
                        setLoading(false)
                        setCommunityType('public')
-                       setIsModalOpen(false)
+                       
                        setError('')
                        setCreatePost((prev) => ([...prev, 0]))
                       }).catch(err => setError(String(err.message)));
